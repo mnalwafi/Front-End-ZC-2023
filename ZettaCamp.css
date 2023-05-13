@@ -1,0 +1,805 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 16px;
+
+    width: 98.095%;
+    height: 482px;
+
+    background: linear-gradient(90deg, #1C2B45 0%, #2B2F5B 100%);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+#hero section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 100%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #9F9F9F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;;
+    height: 493px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#hero section h1 {
+    width: 470px;
+    height: 96px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 96px;
+    margin-block: 0;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#hero section p {
+    width: 38%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #9095A5;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+    position: absolute;
+    width: 1156px;
+    height: auto;
+    left: calc(50% - 1156px/2);
+    top: 454.5px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    transition: .3s linear;
+
+    width: 364px;
+    height: 463px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#card:hover {
+    scale: 1.025;
+    transition: .1s linear;
+    box-shadow: 0px 8px 20px 8px rgba(0, 0, 0, 0.25);
+}
+
+#card a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+
+    width: 364px;
+    height: 463px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#card header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 32px;
+    gap: 104px;
+
+    width: 300px;
+    height: 36px;
+
+    background: #3D4251;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#card header h1 {
+    width: 70px;
+    height: 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#card header .discount {
+    width: 71px;
+    height: 24px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#card .harga {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0 32px;
+    gap: 1px;
+
+    width: 300px;
+    height: 144px;
+
+    border-bottom: 1px solid #ECECEC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+#card .harga .logo-dollar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    
+    width: 30px;
+    height: 134px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#card .harga .logo-dollar p {
+    width: 20px;
+    height: 48px;
+    margin: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #8A8A8A;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#card .harga .pricing {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 144px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #212121;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#card .harga .pricing::after {
+    content: "/ month";
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#card .benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 11px 32px;
+    
+    width: 300px;
+    height: 82px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 3;
+}
+
+.projects, .pages, .disk {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #4C4C4C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -4px 0px;
+}
+
+.projects::after {
+    content: " Projects";
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #808080;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -4px 0px;
+}
+
+.pages::after {
+    content: " Pages";
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #808080;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -4px 0px;
+}
+
+.disk::after {
+    content: " Mb Disk Space";
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #808080;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -4px 0px;
+}
+
+button.payment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 9px;
+    gap: 10px;
+    transition: .1s ease-out;
+    
+    width: 150px;
+    height: 48px;
+    
+    background: #4599DF;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    z-index: 4;
+}
+
+button.payment:hover {
+    transition: .1s ease-out;
+    cursor: pointer;
+
+    background: #0069C0;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+button.payment h1 {
+    width: 93px;
+    height: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#card button.payment {
+    transform: translateY(-112px);
+}
+
+footer {
+    width: 100%;
+    height: 760px;
+
+    background: #F5F5F5;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+#faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 104px;
+
+    position: absolute;
+    width: 1030px;
+    height: 311px;
+    left: calc(50% - 1030px/2);
+    top: 1066px;
+}
+
+#faq .judul {
+    width: 1030px;
+    height: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #666666;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#faq article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 62px;
+
+    width: 1030px;
+    height: 147px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#faq article section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+
+    width: 484px;
+    height: 147px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#faq article section h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #4F4F4F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#faq article section p {
+    width: 484px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #9F9F9F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all .3s;
+
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+}
+
+.popup .popup-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 36px 48px;
+    gap: 10px;
+    isolation: isolate;
+
+    border-radius: 16px;
+    position: absolute;
+    width: 904px;
+    height: 408px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(.25);
+    opacity: 0;
+
+    transition: all .5s .1s;
+
+    background: #FFFFFF;
+}
+
+.popup .popup-content .plan-pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    width: 904px;
+    height: 96px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.plan-pricing h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 96px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.plan-pricing p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.popup .popup-content .plan-benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 904px;
+    height: 144px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.plan-benefit p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.popup .popup-content button {
+    width: 904px;
+    height: 64px;
+}
+
+.popup .popup-content .plan-close {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 0px;
+    top: 8px;
+
+    transform: scale(1.5);
+    font-size: 30px;
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    z-index: 3;
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup:target .popup-content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZettaCamp</title>
+
+    <link rel="stylesheet" href="ZettaCamp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="hero">
+        <section>
+            <h1>Simple Pricing!</h1>
+            <p>The most advanced customer support tools with a simple and affordable pricing. And you can always try for 30 days. free!</p>
+        </section>
+    </header>
+    <main>
+        <article id="card">
+            <a href="#popup-1">
+                <header>
+                    <h1>BASIC</h1>
+                </header>
+                <section class="harga">
+                    <div class="logo-dollar">
+                        <p>$</p>
+                    </div>
+                    <div class="pricing">4</div>
+                </section>
+                <section class="benefit">
+                    <div class="projects">10</div>
+                    <div class="pages">10</div>
+                    <div class="disk">100</div>
+                </section>
+            </a>
+            <button onclick="alertSuccess()" class="payment"><h1>BUY NOW</h1></button>
+        </article>
+        <article id="card">
+            <a href="#popup-2">
+                <header>
+                    <h1>STANDARD</h1>
+                    <h6 class="discount">Save 15%</h6>
+                </header>
+                <section class="harga">
+                    <div class="logo-dollar">
+                        <p>$</p>
+                    </div>
+                    <div class="pricing">8</div>
+                </section>
+                <section class="benefit">
+                    <div class="projects">20</div>
+                    <div class="pages">20</div>
+                    <div class="disk">200</div>
+                </section>
+            </a>
+            <button onclick="alertSuccess()" class="payment"><h1>BUY NOW</h1></button>
+        </article>
+        <article id="card">
+            <a href="#popup-3">
+                <header>
+                    <h1>ADVANCED</h1>
+                </header>
+                <section class="harga">
+                    <div class="logo-dollar">
+                        <p>$</p>
+                    </div>
+                    <div class="pricing">12</div>
+                </section>
+                <section class="benefit">
+                    <div class="projects">40</div>
+                    <div class="pages">40</div>
+                    <div class="disk">500</div>
+                </section>
+            </a>
+            <button onclick="alertSuccess()" class="payment" id="test"><h1>BUY NOW</h1></button>
+        </article>
+    </main>
+    <footer>
+        <main id="faq">
+            <div class="judul">Frequently Asked Questions</div>
+            <article>
+                <section>
+                    <h1>How does free trial work?</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a diam nec augue tincidunt accumsan. In dignissim</p>
+                </section>
+                <section>
+                    <h1>Can I cancel any time?</h1>
+                    <p>Aliquam erat volutpat. Etiam luctus massa ex, at tempus tellus blandit quis. Sed quis neque tellus. Donec maximus </p>
+                </section>
+            </article>
+        </main>
+    </footer>
+    <section id="popup-1" class="popup">
+        <main class="popup-content">
+            <section class="plan-pricing">
+                <h1>Basic Plan</h1>
+                <p>$4/month</p>
+            </section>
+            <section class="plan-benefit">
+                <p>10 Projects</p>
+                <p>10 Pages</p>
+                <p>Up to 100 Mb disk space</p>
+            </section>
+            <button onclick="alertSuccess()" class="payment"><h1>BUY NOW</h1></button>
+            <a href="#" class="plan-close">&times;</a>
+        </main>
+    </section>
+    <section id="popup-2" class="popup">
+        <main class="popup-content">
+            <section class="plan-pricing">
+                <h1>STANDARD Plan</h1>
+                <p>$8/month</p>
+            </section>
+            <section class="plan-benefit">
+                <p>20 Projects</p>
+                <p>20 Pages</p>
+                <p>Up to 200 Mb disk space</p>
+            </section>
+            <button onclick="alertSuccess()" class="payment"><h1>BUY NOW</h1></button>
+            <a href="#" class="plan-close">&times;</a>
+        </main>
+    </section>
+    <section id="popup-3" class="popup">
+        <main class="popup-content">
+            <section class="plan-pricing">
+                <h1>Advanced Plan</h1>
+                <p>$12/month</p>
+            </section>
+            <section class="plan-benefit">
+                <p>40 Projects</p>
+                <p>40 Pages</p>
+                <p>Up to 500 Mb disk space</p>
+            </section>
+            <button onclick="alertSuccess()" class="payment"><h1>BUY NOW</h1></button>
+            <a href="#" class="plan-close">&times;</a>
+        </main>
+    </section>
+    <script>
+        function alertSuccess() {
+        alert("Payments success!");
+        }
+    </script>
+</body>
+</html>
